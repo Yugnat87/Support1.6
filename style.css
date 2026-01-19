@@ -1,0 +1,140 @@
+/* =============================
+   GLOBAL
+============================= */
+body {
+  font-family: Inter, Arial, sans-serif;
+  margin: 40px;
+  background: #f6f7f9;
+  color: #1f2937;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+select {
+  margin-right: 10px;
+  padding: 6px 8px;
+}
+
+/* =============================
+   SUB-ISSUE CARD
+============================= */
+.subissue-block {
+  background: #ffffff;
+  border-left: 6px solid #3b82f6; /* blue */
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 22px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.subissue-title {
+  font-weight: 700;
+  font-size: 1.05em;
+  margin-bottom: 14px;
+  color: #1e40af;
+}
+
+/* =============================
+   ACTION CELL — COLOR BY TYPE
+============================= */
+.action-line {
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border: 1px solid transparent;
+}
+
+/* Ask / Confirm */
+.action-line.ask {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+  color: #1e3a8a;
+}
+
+/* Assess / Diagnose */
+.action-line.assess {
+  background: #ecfeff;
+  border-color: #67e8f9;
+  color: #155e75;
+}
+
+/* Replace / Escalate */
+.action-line.replace {
+  background: #fff7ed;
+  border-color: #fed7aa;
+  color: #9a3412;
+}
+
+/* Action text */
+.action-text {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+/* Buttons */
+.action-buttons {
+  margin-top: 8px;
+}
+
+.action-buttons button {
+  padding: 4px 10px;
+  font-size: 0.85em;
+  border-radius: 6px;
+  border: 1px solid #9ca3af;
+  background: #ffffff;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.action-buttons button:hover {
+  background: #f3f4f6;
+}
+
+/* =============================
+   MAINTENANCE BOX
+============================= */
+.maintenance-box {
+  background: #ffffff;
+  border-left: 6px solid #16a34a; /* green */
+  border-radius: 8px;
+  padding: 18px;
+  max-width: 760px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.maintenance-row {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.maintenance-label {
+  font-weight: 600;
+  width: 260px;
+}
+
+.maintenance-value {
+  flex: 1;
+}
+
+.checkbox-item {
+  display: block;
+  margin-top: 6px;
+}
+
+button {
+  cursor: pointer;
+}

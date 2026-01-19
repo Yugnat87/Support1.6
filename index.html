@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Support Diagnostic Console</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Support Diagnostic Console</h1>
+
+  <!-- PAGE 1 -->
+  <section>
+    <label for="symptomSearch">Search symptom:</label><br />
+    <input
+      type="text"
+      id="symptomSearch"
+      placeholder="Search by ID or description…"
+      style="width: 320px; padding: 6px; margin-bottom: 10px;"
+    />
+    <br />
+
+    <label for="symptomSelect">Symptom:</label><br />
+    <select id="symptomSelect" style="width: 340px;">
+      <option value="">-- Choose symptom --</option>
+    </select>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section id="actionsSection" class="hidden">
+    <h2>Remote Assessment (Support)</h2>
+    <div id="actionsList"></div>
+  </section>
+
+  <section id="maintenanceSection" class="hidden">
+    <h2>Maintenance Instructions</h2>
+    <div id="maintenanceContent"></div>
+    <button id="copyBtn">📋 Copy for Maintenance</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
